@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Spectral+SC:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/assets/bg.png");
+    background-size: cover;
+}
+
+header{
+    margin-top: 20px;
+}
+
+.header-container img{
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-container h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Spectral SC';
+    font-size: 20px;
+}
+
+.main-container{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 20px 450px;
+}
+
+.main-container img{
+    width: 100px;
+    display: block;
+    margin: 20px auto 0px auto;
+}
+
+.main-container h1{
+    text-align: center;
+    font-family: 'Spectral SC';
+    font-size: 40px;
+    margin: 0px;
+    margin-top: -10px;
+}
+
+.main-container h2{
+    text-align: center;
+    font-family: 'Spectral SC';
+    font-size: 50px;
+    margin: 10px 0px;
+}
+
+.form-login{
+    align-items: center;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.login-button-container{
+    align-items: right;
+    text-align: right;   
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: auto;
+    display: block;
+}
+
+.login-button{
+    float: right;
+}
+
+.border{
+    border-radius: 50px;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid #626262!important;
+
+}
+
+.createacc-button-container{
+    text-align: center;
+    margin: 20px 0px;
+}
